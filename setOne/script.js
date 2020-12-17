@@ -64,7 +64,7 @@ array.forEach(item =>{if(item == 'a'|| item == 'e'|| item == 'i'|| item == 'o'||
 document.writeln(`Tu frase contiene <b>${numero} </b>vocales.`);
 endExersise */
 
-/* Exercise_9*/
+/* Exercise_9
 let cadena = prompt('Escribe una frase y encontrare la sumatoria por cada vocal');
 array = Array.from(cadena);
 let contador =0,contadorA = 0,contadorE = 0,contadorI = 0,contadorO = 0,contadorU = 0 ;
@@ -94,41 +94,55 @@ table, th, td {
                                     <tr>
                                       <th>Numero de vocales</th>
                                       <th>vocal</th>
-                                     
                                     </tr>
                                     <tr>
                                       <td>${contadorA} </td>
                                       <td>A</td>
-                                    
                                     </tr>
                                     <tr>
                                       <td>${contadorE} </td>
                                       <td>E</td>
-                                      
                                     </tr>
-
                                     <tr>
-                                    <td>${contadorI} </td>
-                                    <td>I</td>
-                                    
-                                  </tr>
-
-                                  <tr>
-                                  <td>${contadorO} </td>
-                                  <td>O</td>
-                                  
-                                </tr>
-
-                                <tr>
-                                <td>${contadorU} </td>
-                                <td>U</td>
-                                
-                              </tr>
-                              <tr>
-                                <td>${contador} </td>
-                                <td>No son vocales</td>
-                                
-                              </tr>
+                                        <td>${contadorI} </td>
+                                        <td>I</td>
+                                    </tr>
+                                    <tr>
+                                        <td>${contadorO} </td>
+                                        <td>O</td>
+                                    </tr>
+                                    <tr>
+                                        <td>${contadorU} </td>
+                                        <td>U</td>
+                                    </tr>
+                                    <tr>
+                                        <td>${contador} </td>
+                                        <td>No son vocales</td>
+                                    </tr>
                                   </table>
   `);
-/*endExersise */
+endExersise */
+
+/* Exercise_10
+let numero = parseInt(prompt('Escribe un numero y te dire si es divisible entre 2,3,5 y 7'));
+if(numero % 2 == 0 ){
+    document.writeln(`Si es divisible entre 2 <br>`);
+}else{
+    document.writeln(`No es divisible entre 2 <br>`);
+}
+if(numero % 3 == 0 ){
+    document.writeln(`Si es divisible entre 3 <br>`);
+}else{
+    document.writeln(`No es divisible entre 3 <br>`);
+}
+if(numero % 5 == 0 ){
+    document.writeln(`Si es divisible entre 5 <br>`);
+}else{
+    document.writeln(`No es divisible entre 5 <br>`);
+}
+if(numero % 7 == 0 ){
+    document.writeln(`Si es divisible entre 7 <br>`);
+}else{
+    document.writeln(`No es divisible entre 7 <br>`);
+}
+endExersise */
