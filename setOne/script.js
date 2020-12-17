@@ -147,10 +147,15 @@ if(numero % 7 == 0 ){
 }
 endExersise */
 
-/* Exercise_12*/
+/* Exercise_12
 let numero = parseInt(prompt('Escribe un numero y te dire entre que numeros es divisible'));
 for (var i = 1; i <= numero; i++) {
     numero % i == 0? alert(`Es divisible entre ${i} :D`) : alert(`:-C 
     No es divisible entre ${i}`)
  }
-/*endExersise */
+endExersise */
+
+/* Exercise_13
+let numero = parseInt(prompt('Escribe un numero y te dire entre que numeros es divisible'));
+
+endExersise */
