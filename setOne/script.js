@@ -63,3 +63,72 @@ let numero = 0 ;
 array.forEach(item =>{if(item == 'a'|| item == 'e'|| item == 'i'|| item == 'o'|| item == 'u')numero = numero + 1;} );
 document.writeln(`Tu frase contiene <b>${numero} </b>vocales.`);
 endExersise */
+
+/* Exercise_9*/
+let cadena = prompt('Escribe una frase y encontrare la sumatoria por cada vocal');
+array = Array.from(cadena);
+let contador =0,contadorA = 0,contadorE = 0,contadorI = 0,contadorO = 0,contadorU = 0 ;
+noVocales = [];
+array.forEach(item =>{
+    if(item == 'a'){
+        contadorA = contadorA + 1;
+    }else if (item == 'e'){
+        contadorE = contadorE + 1;
+    } else if(item == 'i'){ 
+        contadorI = contadorI + 1;
+    } else if(item == 'o'){
+        contadorO = contadorO + 1;
+    } else if(item == 'u'){
+        contadorU = contadorU + 1;
+    } else{contador = contador + 1;}
+
+} );
+document.writeln(`
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+                                    <table style="width:400px">
+                                    <tr>
+                                      <th>Numero de vocales</th>
+                                      <th>vocal</th>
+                                     
+                                    </tr>
+                                    <tr>
+                                      <td>${contadorA} </td>
+                                      <td>A</td>
+                                    
+                                    </tr>
+                                    <tr>
+                                      <td>${contadorE} </td>
+                                      <td>E</td>
+                                      
+                                    </tr>
+
+                                    <tr>
+                                    <td>${contadorI} </td>
+                                    <td>I</td>
+                                    
+                                  </tr>
+
+                                  <tr>
+                                  <td>${contadorO} </td>
+                                  <td>O</td>
+                                  
+                                </tr>
+
+                                <tr>
+                                <td>${contadorU} </td>
+                                <td>U</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>${contador} </td>
+                                <td>No son vocales</td>
+                                
+                              </tr>
+                                  </table>
+  `);
+/*endExersise */
