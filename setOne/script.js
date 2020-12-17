@@ -40,10 +40,18 @@ if (numero % 2 == 0){
 }
 endExersise */
 
-/* Exercise_6*/
+/* Exercise_6
 let cadena = prompt('Escribe una frase y encontrare la sumatoria de las letras "a"');
 array = Array.from(cadena);
 let numero = 0 ;
-console.log(array.forEach(item =>{if(item == 'a')numero = numero + 1;} ));
+array.forEach(item =>{if(item == 'a')numero = numero + 1;} );
 document.writeln(`Tu frase contiene <b>${numero} </b>letras a.`);
-/*endExersise */
+endExersise */
+
+/* Exercise_7
+let cadena = prompt('Escribe una frase y encontrare la sumatoria de las vocales');
+array = Array.from(cadena);
+let numero = 0 ;
+array.forEach(item =>{if(item == 'a'|| item == 'e'|| item == 'i'|| item == 'o'|| item == 'u')numero = numero + 1;} );
+document.writeln(`Tu frase contiene <b>${numero} </b>vocales.`);
+endExersise */
