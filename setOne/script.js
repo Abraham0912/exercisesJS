@@ -123,7 +123,7 @@ table, th, td {
   `);
 endExersise */
 
-/* Exercise_10
+/* Exercise_10_AND_11
 let numero = parseInt(prompt('Escribe un numero y te dire si es divisible entre 2,3,5 y 7'));
 if(numero % 2 == 0 ){
     document.writeln(`Si es divisible entre 2 <br>`);
@@ -146,3 +146,11 @@ if(numero % 7 == 0 ){
     document.writeln(`No es divisible entre 7 <br>`);
 }
 endExersise */
+
+/* Exercise_12*/
+let numero = parseInt(prompt('Escribe un numero y te dire entre que numeros es divisible'));
+for (var i = 1; i <= numero; i++) {
+    numero % i == 0? alert(`Es divisible entre ${i} :D`) : alert(`:-C 
+    No es divisible entre ${i}`)
+ }
+/*endExersise */
