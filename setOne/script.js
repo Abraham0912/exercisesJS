@@ -51,6 +51,14 @@ endExersise */
 /* Exercise_7
 let cadena = prompt('Escribe una frase y encontrare la sumatoria de las vocales');
 array = Array.from(cadena);
+let vocales = [] ;
+array.forEach(item =>{if(item == 'a'|| item == 'e'|| item == 'i'|| item == 'o'|| item == 'u')vocales.push(item);} );
+document.writeln(`Tu frase contiene <b>${vocales} </b>vocales.`);
+endExersise */
+
+/* Exercise_8
+let cadena = prompt('Escribe una frase y encontrare la sumatoria de las vocales');
+array = Array.from(cadena);
 let numero = 0 ;
 array.forEach(item =>{if(item == 'a'|| item == 'e'|| item == 'i'|| item == 'o'|| item == 'u')numero = numero + 1;} );
 document.writeln(`Tu frase contiene <b>${numero} </b>vocales.`);
