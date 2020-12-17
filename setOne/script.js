@@ -31,13 +31,19 @@ document.writeln(`<br>Imprimiendo array: ${numeros}`);
 document.writeln(`<br>Imprimiendo array ordenado: ${numeros.sort().reverse()} `);
 endExersise */
 
-/* Exercise_5*/
+/* Exercise_5
 let numero = parseInt(prompt('Dame numero'));
 if (numero % 2 == 0){
     document.writeln('Si es divisible entre 2 :D')
 }else{
     document.writeln('No es divisible :C');
 }
+endExersise */
 
+/* Exercise_6*/
+let cadena = prompt('Escribe una frase y encontrare la sumatoria de las letras "a"');
+array = Array.from(cadena);
+let numero = 0 ;
+console.log(array.forEach(item =>{if(item == 'a')numero = numero + 1;} ));
+document.writeln(`Tu frase contiene <b>${numero} </b>letras a.`);
 /*endExersise */
-
