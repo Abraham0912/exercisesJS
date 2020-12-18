@@ -155,7 +155,7 @@ for (var i = 1; i <= numero; i++) {
  }
 endExersise */
 
-/* Exercise_13*/
+/* Exercise_13
 let numero = parseInt(prompt('Escribe un numero y te dire entre que numeros es divisible'));
 let numero2 = parseInt(prompt('Escribe un SEGUNDO numero y te dire entre que numeros es divisible'));
 let numMayor = 0;
@@ -168,9 +168,11 @@ numero>numero2 ? numMayor = numero : numMayor = numero2;
     numero2 % i == 0? document.writeln(`<b>${numero2} Es divisible entre ${i} :D <br></b>`) 
     : document.writeln(`<b>${numero2} No es divisible entre ${i} :-C <br></b>`)
  }
-/*endExersise */
+endExersise */
+
+/* Exercise_14*/
+
+/*endExercise*/
 
 
-
-
-//HACER JERCICIOS CON TODOS LOS TIPOS DE FUNCIONES
+//HACER EJRCICIOS CON TODOS LOS TIPOS DE FUNCIONES
