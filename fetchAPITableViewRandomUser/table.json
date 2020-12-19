@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name": "Harry",
+        "email": "harry@gmail.com",
+        "status": true
+    },
+    {
+        "id":2,
+        "name": "Abraham",
+        "email": "abraham95@gmail.com",
+        "status": true
+    },
+    {
+        "id":3,
+        "name": "Yessenia",
+        "email": "yesixdD@gmail.com",
+        "status": false
+    },
+    {
+        "id":4,
+        "name": "pAPOTICO",
+        "email": "elpepe@gmail.com",
+        "status": true
+    }
+]
+   
