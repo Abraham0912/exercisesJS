@@ -1,1 +1,1 @@
-alert("hola");
+alert("Estoy conectado con index");
