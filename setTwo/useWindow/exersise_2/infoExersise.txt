@@ -1,2 +1,0 @@
-Se requiere  un bloque de codigo que informa de la resolucion de la ventana para decidir si se realiza la compra o no(exercise_1).
-Realizar un sistema que muestre los datos como para conocer el sitio web sin salir de pantalla completa(exercise_2).
