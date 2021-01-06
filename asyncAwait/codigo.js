@@ -1,4 +1,4 @@
-alert("Estoy conectado con html y busco aberiguar que funcion se ejecutara primero, si un console o cuadradoPromise");
+/* alert("Estoy conectado con html y busco aberiguar que funcion se ejecutara primero, si un console o cuadradoPromise en console");
 
 function cuadradoPromise(value){
     if(typeof value!== "number"){
@@ -40,4 +40,4 @@ async function funcionAsincronaDeclarada(){
 }
 
 
-funcionAsincronaDeclarada();
+funcionAsincronaDeclarada(); */
