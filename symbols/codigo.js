@@ -5,10 +5,11 @@ console.log(id === id2);
 console.log(id, id2);
 console.log(typeof id, typeof id2);
 
-const NOMBRE = Symbol();
+const NOMBRE = Symbol(1);
 
 const persona = {
-    [NOMBRE]: "Abraham"
+    [NOMBRE]: "Abraham",
+    NOMBRE: "Yess"
 }
 console.log(persona);
 
@@ -16,4 +17,10 @@ persona.NOMBRE = "Abraham Hernandez";
 console.log(persona);
 
 console.log(persona.NOMBRE);
-console.log(persona.[NOMBRE]);
+console.log(persona[NOMBRE]);
+
+console.log("------------------------");
+persona[NOMBRE] = "cacas";
+
+console.log(persona.NOMBRE);
+console.log(persona[NOMBRE]);
